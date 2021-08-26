@@ -17,7 +17,7 @@ module "deploy" {
     aws_region       = "${var.aws_region}"
     vpc_cidr         = "${var.vpc_cidr}"
     networkenv       = "${var.networkenv}"        #defining type of environment for network
-    applicationenv   = "${var.prodenv}"        #defining type of environment for application
+    applicationenv   = "${var.applicationenv}"        #defining type of environment for application
     zones            = "${var.zones}"
     ec2_amis         = "${var.ec2_amis}"  # sample example of image
     max_size         = "${var.max_size}"
